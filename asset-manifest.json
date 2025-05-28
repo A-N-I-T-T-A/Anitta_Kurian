@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Anitta_Kurian/static/css/main.e6c13ad2.css",
+    "main.js": "/Anitta_Kurian/static/js/main.43817cdd.js",
+    "static/js/453.6fd7b20c.chunk.js": "/Anitta_Kurian/static/js/453.6fd7b20c.chunk.js",
+    "index.html": "/Anitta_Kurian/index.html",
+    "main.e6c13ad2.css.map": "/Anitta_Kurian/static/css/main.e6c13ad2.css.map",
+    "main.43817cdd.js.map": "/Anitta_Kurian/static/js/main.43817cdd.js.map",
+    "453.6fd7b20c.chunk.js.map": "/Anitta_Kurian/static/js/453.6fd7b20c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.43817cdd.js"
+  ]
+}
