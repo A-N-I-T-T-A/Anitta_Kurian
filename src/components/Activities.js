@@ -223,7 +223,7 @@ const Activities = () => {
       title: 'Marian Proficiency Award 2024–2025',
       description: 'Awarded the Marian Proficiency Award for achieving an SGPA of 9.08 in the MCA program at Marian College, Kuttikkanam.',
       backDescription: 'Recognized for academic excellence, continuous learning, and dedication to tech, AI, and data science.',
-      image: '/activities/marian-award.jpg',
+      image: './activities/marian-award.jpg',
       type: 'Achievement',
       date: '2025',
       link: 'https://www.linkedin.com/posts/activity-7307026388413308928-KUyg?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAADzXF1QBpb5gUXLMlqQHydCnYJmO8Jugu4E&utm_campaign=copy_link', // Add certificate or announcement link if available
@@ -233,7 +233,7 @@ const Activities = () => {
       title: 'National Seminar Presentation – AI for Medical Waste',
       description: 'Presented a paper on "AI-Driven Medical Waste Classification" at the National Seminar 2025 hosted by Marian Institute of Management.',
       backDescription: 'Explored AI solutions for sustainable waste management and circular economy practices.',
-      image: '/activities/seminar-presentation.jpg',
+      image: './activities/seminar-presentation.jpg',
       type: 'Research',
       date: '2025',
       link: 'https://www.linkedin.com/posts/activity-7295421997222621184-p3qx?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAADzXF1QBpb5gUXLMlqQHydCnYJmO8Jugu4E&utm_campaign=copy_link', // Add conference proceedings or paper link if any
@@ -243,7 +243,7 @@ const Activities = () => {
       title: 'Graph Theory in Deadlock Detection – Video Presentation',
       description: "Released my first academic video on Graph Theory's application in deadlock detection, featured on Marian College's official YouTube channel.",
       backDescription: 'Explained deadlock handling using graph theory, real-world examples, and prevention strategies in OS.',
-      image: '/activities/graph-theory-video.jpeg',
+      image: './activities/graph-theory-video.jpeg',
       type: 'Presentation',
       date: '2024',
       link: 'https://youtu.be/tsMfnCAx5U0?si=3weM-DXLrQmMzBeX', // Replace with actual link
@@ -253,7 +253,7 @@ const Activities = () => {
       title: 'Django Session for BCA Students',
       description: 'Conducted a hands-on session on Django project creation for BCA students at Assumption Autonomous College.',
       backDescription: 'Shared practical Django insights and project tips as part of an extension activity from Marian College.',
-      image: '/activities/django-session.jpg',
+      image: './activities/django-session.jpg',
       type: 'Teaching',
       date: '2024',
       link: 'https://www.linkedin.com/posts/activity-7295426555709648896-HIV7?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAADzXF1QBpb5gUXLMlqQHydCnYJmO8Jugu4E&utm_campaign=copy_link', // Add drive link or article if available
@@ -263,7 +263,7 @@ const Activities = () => {
       title: 'International Workshop – Data Visualization & Analytics',
       description: 'Completed an international workshop on Data Visualization using Excel, Power BI, Tableau, and Generative AI.',
       backDescription: 'Gained practical exposure to data analytics tools and techniques from global instructors.',
-      image: '/activities/data-viz-workshop.jpeg',
+      image: './activities/data-viz-workshop.jpeg',
       type: 'Training',
       date: '2024',
       link: 'https://www.linkedin.com/posts/activity-7219365632243335168-wF3O?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAADzXF1QBpb5gUXLMlqQHydCnYJmO8Jugu4E&utm_campaign=copy_link', // Add certificate link if available
