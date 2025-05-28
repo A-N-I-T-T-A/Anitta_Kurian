@@ -60,7 +60,7 @@ const HeroSection = styled.section`
   text-align: center;
   padding: 0 20px;
   position: relative;
-  background: url('/activities/marian-award.jpg') no-repeat center center;
+  background: url('./activities/marian-award.jpg') no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   overflow: hidden;
