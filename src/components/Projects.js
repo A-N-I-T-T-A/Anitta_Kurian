@@ -301,7 +301,7 @@ const Projects = () => {
     {
       title: 'MentorQuest – Skill-Based Mentorship Platform',
       description: 'Designed and developed a full-stack platform that connects mentees to mentors through skill-matching, scheduling, payments, and dashboards. Solves the real-world problem of fragmented mentoring systems by offering structured, personalized experiences.',
-      image: '/projects/mentorquest.png',
+      image: './projects/mentorquest.png',
       techStack: ['React', 'Django REST Framework', 'PostgreSQL', 'JWT', 'Razorpay', 'Google OAuth'],
       github: ['https://github.com/A-N-I-T-T-A/MentorQuest_Frontend','https://github.com/A-N-I-T-T-A/MentorQuest_Backend'],
       demo: 'https://a-n-i-t-t-a.github.io/MentorQuest_Frontend/',
@@ -310,7 +310,7 @@ const Projects = () => {
     {
       title: 'Loan Default Prediction Web App',
       description: 'Built a Flask-based web application that uses Logistic Regression to predict loan approval status based on user financial data. Achieved 90% accuracy with real-time model result display and a clean Bootstrap UI.',
-      image: '/projects/loan-default-prediction.png',
+      image: './projects/loan-default-prediction.png',
       techStack: ['Python', 'Flask', 'Scikit-learn', 'Pandas', 'HTML', 'CSS', 'Bootstrap', 'Joblib'],
       github: 'https://github.com/A-N-I-T-T-A/Loan_Risk_Assessment.git',
       demo: 'https://loan-risk-assessment-ymdw.onrender.com/',
@@ -319,7 +319,7 @@ const Projects = () => {
     {
       title: 'Credit Card Fraud Detection – KNN',
       description: 'Developed a fraud detection system using K-Nearest Neighbors that identifies suspicious credit card transactions based on time, amount, and behavior patterns. Includes a user-friendly Flask interface and dynamic prediction display.',
-      image: '/projects/fraud-detection-knn.png',
+      image: './projects/fraud-detection-knn.png',
       techStack: ['Python', 'Flask', 'Scikit-learn', 'Pandas', 'Bootstrap', 'Joblib'],
       github: 'https://github.com/A-N-I-T-T-A/Credit_card_fraud_detection.git',
       demo: 'https://credit-card-fraud-detection-5s04.onrender.com/',
@@ -328,7 +328,7 @@ const Projects = () => {
     {
       title: 'Battery Life Estimator – Polynomial Regression',
       description: 'Created a model to predict battery health percentage based on charge cycles using Polynomial Regression (degree=3). Deployed with Flask, the app delivers interactive, real-time predictions with 99% test accuracy.',
-      image: '/projects/battery-life-estimation.png',
+      image: './projects/battery-life-estimation.png',
       techStack: ['Python', 'Flask', 'Scikit-learn', 'Joblib', 'HTML', 'CSS', 'Bootstrap', 'JavaScript'],
       github: 'https://github.com/A-N-I-T-T-A/Battery_Life_Estimator.git',
       demo: 'https://battery-life-estimator.onrender.com/',
@@ -337,7 +337,7 @@ const Projects = () => {
     {
       title: 'Freelance Earnings Prediction',
       description: 'Built a machine learning model using Multiple Linear Regression to predict freelance income based on country, experience, hours, and platform. Deployed via Flask for interactive web use.',
-      image: '/projects/freelance-earnings.png',
+      image: './projects/freelance-earnings.png',
       techStack: ['Python', 'Flask', 'Scikit-learn', 'Pandas', 'NumPy', 'Bootstrap'],
       github: 'https://github.com/A-N-I-T-T-A/Freelance_Earnings.git',
       demo: 'https://anitta12.pythonanywhere.com/',
@@ -346,7 +346,7 @@ const Projects = () => {
     {
       title: 'Electricity Bill Predictor',
       description: 'My first machine learning project: predicted electricity bills using a Linear Regression model deployed via Flask. Focused on hands-on ML fundamentals and real-world deployment on PythonAnywhere.',
-      image: '/projects/electricity-bill-predictor.png',
+      image: './projects/electricity-bill-predictor.png',
       techStack: ['Python', 'Flask', 'Scikit-learn', 'Pandas', 'NumPy'],
       github: 'https://github.com/anitta-kurian/electricity-bill-predictor',
       demo: 'https://electricitybillpredictor.onrender.com',
@@ -355,7 +355,7 @@ const Projects = () => {
     {
       title: 'DIY-Blog Platform',
       description: 'Full-featured blogging system built with Django. Supports user authentication, CRUD blog posts, comments, user profiles, and admin panel. Deployed on Render.',
-      image: '/projects/diy-blog.png',
+      image: './projects/diy-blog.png',
       techStack: ['Django', 'HTML', 'Bootstrap', 'SQLite', 'Render'],
       github: 'https://github.com/A-N-I-T-T-A/DIY_Blog.git',
       demo: 'https://diy-blog.onrender.com/blog/',
@@ -364,7 +364,7 @@ const Projects = () => {
     {
       title: 'Training Department Management System',
       description: 'Manages trainees, trainers, schedules, and projects with real-time alerts and department-based allocation logic.',
-      image: '/projects/training-department.jpeg',
+      image: './projects/training-department.jpeg',
       techStack: ['Django', 'HTML5', 'CSS', 'JavaScript', 'Bootstrap', 'SQL'],
       github: 'https://github.com/A-N-I-T-T-A/Training-Management.git',
       demo: '',
