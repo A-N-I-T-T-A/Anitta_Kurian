@@ -138,7 +138,7 @@ const About = () => {
     <AboutSection id="about">
       <Container>
         <ImageContainer>
-          <ProfileImage src="/profile.jpg" alt="Anitta Kurian" />
+          <ProfileImage src="./profile.jpg" alt="Anitta Kurian" />
         </ImageContainer>
         <Content>
           <SectionTitle>About Me</SectionTitle>
