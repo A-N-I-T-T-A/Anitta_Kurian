@@ -79,7 +79,8 @@ const ProjectsContainer = styled.div`
   margin: 0 -20px;
 
   @media (max-width: 768px) {
-    padding: 20px 0;
+    padding: 20px 10px;
+    margin: 0;
   }
 `;
 
@@ -89,6 +90,12 @@ const ProjectsRow = styled.div`
   transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
   padding: 20px 0;
   animation: ${fadeInUp} 1s ease;
+
+  @media (max-width: 768px) {
+    gap: 20px;
+    flex-direction: column;
+    padding: 10px 0;
+  }
 `;
 
 const ProjectCard = styled.div`
@@ -114,7 +121,9 @@ const ProjectCard = styled.div`
   }
 
   @media (max-width: 768px) {
+    min-width: 100%;
     flex: 0 0 100%;
+    margin: 0 10px;
   }
 `;
 
@@ -168,6 +177,10 @@ const ProjectImage = styled.div`
   position: relative;
   overflow: hidden;
 
+  @media (max-width: 768px) {
+    height: 180px;
+  }
+
   img {
     width: 100%;
     height: 100%;
@@ -198,6 +211,10 @@ const ProjectImage = styled.div`
 
 const ProjectContent = styled.div`
   padding: 30px;
+
+  @media (max-width: 768px) {
+    padding: 20px;
+  }
 `;
 
 const ProjectTitle = styled.h3`
@@ -205,6 +222,10 @@ const ProjectTitle = styled.h3`
   color: #333;
   margin-bottom: 15px;
   transition: color 0.3s ease;
+
+  @media (max-width: 768px) {
+    font-size: 1.3rem;
+  }
 
   ${ProjectCard}:hover & {
     color: #6c63ff;
@@ -215,6 +236,11 @@ const ProjectDescription = styled.p`
   color: #666;
   margin-bottom: 20px;
   line-height: 1.6;
+
+  @media (max-width: 768px) {
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+  }
 `;
 
 const TechStack = styled.div`
@@ -222,6 +248,11 @@ const TechStack = styled.div`
   flex-wrap: wrap;
   gap: 10px;
   margin-bottom: 20px;
+
+  @media (max-width: 768px) {
+    gap: 8px;
+    margin-bottom: 15px;
+  }
 `;
 
 const TechBadge = styled.span`
@@ -232,6 +263,11 @@ const TechBadge = styled.span`
   font-size: 0.9rem;
   transition: all 0.3s ease;
 
+  @media (max-width: 768px) {
+    padding: 4px 12px;
+    font-size: 0.8rem;
+  }
+
   &:hover {
     background: rgba(108, 99, 255, 0.2);
     transform: translateY(-2px);
@@ -241,6 +277,10 @@ const TechBadge = styled.span`
 const ProjectLinks = styled.div`
   display: flex;
   gap: 15px;
+
+  @media (max-width: 768px) {
+    gap: 10px;
+  }
 `;
 
 const ProjectLink = styled.a`
@@ -255,6 +295,11 @@ const ProjectLink = styled.a`
   border-radius: 20px;
   background: rgba(108, 99, 255, 0.05);
 
+  @media (max-width: 768px) {
+    padding: 6px 12px;
+    font-size: 0.9rem;
+  }
+
   &:hover {
     background: rgba(108, 99, 255, 0.1);
     transform: translateX(5px);
@@ -263,6 +308,10 @@ const ProjectLink = styled.a`
   i {
     font-size: 1.1rem;
     transition: transform 0.3s ease;
+
+    @media (max-width: 768px) {
+      font-size: 1rem;
+    }
   }
 
   &:hover i {
