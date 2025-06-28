@@ -54,7 +54,7 @@ const SkillsSection = styled.section`
 `;
 
 const Container = styled.div`
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   animation: ${fadeInUp} 1s ease;
 `;
@@ -80,88 +80,101 @@ const SectionTitle = styled.h2`
   }
 `;
 
-const SkillsRow = styled.div`
-  display: flex;
-  gap: 20px;
-  justify-content: space-between;
-  flex-wrap: nowrap;
+const SkillsGrid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  align-items: start;
   animation: ${fadeInUp} 1s ease;
 
-  @media (max-width: 1200px) {
-    flex-wrap: wrap;
-    justify-content: center;
+  @media (min-width: 1200px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media (min-width: 1600px) {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
 `;
 
 const SkillCategory = styled.div`
   background: white;
-  padding: 25px;
+  padding: 30px 25px;
   border-radius: 20px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  flex: 1;
-  min-width: 250px;
-  max-width: 280px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
   animation: ${fadeInUp} 0.5s ease;
   animation-fill-mode: both;
   animation-delay: ${props => props.delay}s;
+  border: 1px solid rgba(108, 99, 255, 0.1);
 
   &:hover {
     transform: translateY(-10px) scale(1.02);
-    box-shadow: 0 20px 40px rgba(108, 99, 255, 0.1);
-  }
-
-  @media (max-width: 1200px) {
-    flex: 0 1 calc(50% - 20px);
-    max-width: none;
-  }
-
-  @media (max-width: 768px) {
-    flex: 0 1 100%;
+    box-shadow: 0 20px 40px rgba(108, 99, 255, 0.15);
+    border-color: rgba(108, 99, 255, 0.2);
   }
 `;
 
 const CategoryTitle = styled.h3`
-  font-size: 1.3rem;
+  font-size: 1.25rem;
   color: #333;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 12px;
+  font-weight: 600;
+  min-height: 60px;
+  align-items: flex-start;
+  padding-top: 5px;
 
   i {
     color: #6c63ff;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     animation: ${float} 3s ease-in-out infinite;
+    flex-shrink: 0;
   }
 `;
 
 const SkillsList = styled.ul`
   list-style: none;
   padding: 0;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 `;
 
 const SkillItem = styled.li`
   display: flex;
   align-items: center;
-  margin-bottom: 12px;
   color: #666;
-  font-size: 1rem;
+  font-size: 0.95rem;
   transition: all 0.3s ease;
-  padding: 8px 12px;
-  border-radius: 10px;
+  padding: 10px 15px;
+  border-radius: 12px;
   background: rgba(108, 99, 255, 0.03);
+  border: 1px solid rgba(108, 99, 255, 0.05);
+  font-weight: 500;
 
   &:hover {
     background: rgba(108, 99, 255, 0.08);
     transform: translateX(5px);
+    border-color: rgba(108, 99, 255, 0.1);
   }
 
   i {
-    margin-right: 10px;
+    margin-right: 12px;
     color: #6c63ff;
-    font-size: 1.1rem;
+    font-size: 1rem;
     transition: transform 0.3s ease;
+    flex-shrink: 0;
   }
 
   &:hover i {
@@ -178,9 +191,9 @@ const Skills = () => {
       delay: 0.1
     },
     {
-      title: 'Libraries & Data Analysis',
-      icon: 'fas fa-book',
-      skills: ['Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'Scikit-learn'],
+      title: 'Libraries & ML Frameworks',
+      icon: 'fas fa-brain',
+      skills: ['Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'Scikit-learn', 'TensorFlow', 'PyTorch'],
       delay: 0.2
     },
     {
@@ -192,8 +205,14 @@ const Skills = () => {
     {
       title: 'Tools & Platforms',
       icon: 'fas fa-tools',
-      skills: ['Power BI', 'Jupyter Notebook', 'Git & GitHub', 'VS Code', 'Render', 'MySQL'],
+      skills: ['Power BI', 'Jupyter Notebook', 'Git & GitHub', 'VS Code', 'Render', 'MySQL', 'PythonAnywhere', 'IBM Watson Studio'],
       delay: 0.4
+    },
+    {
+      title: 'Core Data Skills',
+      icon: 'fas fa-chart-line',
+      skills: ['Data Preprocessing', 'Model Training & Evaluation', 'Feature Engineering', 'Regression & Classification', 'Cross-validation', 'ML Model Deployment'],
+      delay: 0.5
     }
   ];
 
@@ -201,7 +220,7 @@ const Skills = () => {
     <SkillsSection id="skills">
       <Container>
         <SectionTitle>Skills</SectionTitle>
-        <SkillsRow>
+        <SkillsGrid>
           {skillCategories.map((category, index) => (
             <SkillCategory key={index} delay={category.delay}>
               <CategoryTitle>
@@ -218,10 +237,10 @@ const Skills = () => {
               </SkillsList>
             </SkillCategory>
           ))}
-        </SkillsRow>
+        </SkillsGrid>
       </Container>
     </SkillsSection>
   );
 };
 
-export default Skills; 
+export default Skills;
