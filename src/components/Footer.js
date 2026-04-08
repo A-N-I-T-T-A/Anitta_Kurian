@@ -117,7 +117,7 @@ const Footer = () => {
           <FooterColumn>
             <FooterTitle>Resources</FooterTitle>
             <FooterLink 
-              href="/resume.pdf" 
+              href="https://drive.google.com/file/d/1K7j_ZUH1EzY2Bs8_mG0hiqTxntlTBhQB/view?usp=drive_link" 
               target="_blank"
               rel="noopener noreferrer"
             >

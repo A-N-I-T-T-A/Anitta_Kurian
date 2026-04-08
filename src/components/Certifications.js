@@ -184,46 +184,60 @@ const CertificateLink = styled.a`
 const Certifications = () => {
   const certificates = [
     {
+      title: 'Python (Basic) Certificate',
+      issuer: 'HackerRank',
+      date: 'July 2025',
+      link: 'https://www.hackerrank.com/certificates/eb40031c29bb',
+      delay: 0.1
+    },
+    {
+      title: 'SQL (Basic) Certificate',
+      issuer: 'HackerRank',
+      date: 'July 2025',
+      link: 'https://www.hackerrank.com/certificates/7c4e5078e541',
+      delay: 0.2
+    },
+    {
       title: 'Data Analysis Using Python- IBM Badge',
       issuer: 'IBM',
       date: 'May 2025',
       link: 'https://www.credly.com/badges/69fe3d51-6ba2-4651-b2dc-d45f614d4fc5/linked_in_profile',
-      delay: 0.1
+      delay: 0.3
     },
     {
       title: 'Python 101 for Data Science',
       issuer: 'Cognitive Class',
       date: 'May 2025',
       link: 'https://courses.cognitiveclass.ai/certificates/fb779f94100948f8a8591cf3986032ea',
-      delay: 0.2
+      delay: 0.4
     },
     {
       title: 'Machine Learning with Python',
       issuer: 'Cognitive Class',
       date: 'March 2025',
       link: 'https://courses.cognitiveclass.ai/certificates/87a262428b47492c967fb996025f1953',
-      delay: 0.3
+      delay: 0.5
     },
     {
       title: 'Data Science Tools - IBM Badge',
       issuer: 'IBM',
       date: 'August 2024',
       link: 'https://www.credly.com/badges/4d824868-081d-47df-be5a-1db740cfbe48/linked_in_profile',
-      delay: 0.4
+      delay: 0.6
     },
     {
       title: 'Data Science Methodology',
       issuer: 'Cognitive Class',
       date: 'October 2024',
       link: 'https://courses.cognitiveclass.ai/certificates/24c84fc434fd44cd8e92612263696359',
-      delay: 0.5
+      delay: 0.7
     },
     {
       title: 'Python for Data Science and AI - IBM Badge',
       issuer: 'Coursera',
       date: 'July 2023',
       link: 'https://www.credly.com/badges/d1e178c5-24b9-4d36-adde-9e9a52be8c00/linked_in_profile',
-      delay: 0.6
+      delay: 0.8
     }
   ];
 
