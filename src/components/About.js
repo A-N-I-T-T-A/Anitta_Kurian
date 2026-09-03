@@ -142,39 +142,48 @@ const About = () => {
         </ImageContainer>
         <Content>
           <SectionTitle>About Me</SectionTitle>
+
           <Description>
-            I'm <Highlight>Anitta Kurian</Highlight>, a dedicated and passionate tech enthusiast currently pursuing my <Highlight>Master of Computer Applications (MCA)</Highlight> at <Highlight>Marian College, Kuttikkanam</Highlight> (<Highlight>M.G. University</Highlight>), expected to graduate in 2026. With a strong foundation in <Highlight>Python</Highlight>, <Highlight>Django</Highlight>, and <Highlight>data science tools</Highlight>.
+            I'm <Highlight>Anitta Kurian</Highlight>, an <Highlight>MCA graduate (2026)</Highlight> 
+            with a strong foundation in <Highlight>Python, Django, Frappe/ERPNext, SQL, and REST APIs</Highlight>.
           </Description>
+
           <Description>
-            During my training at <Highlight>Altos Technologies</Highlight>, <Highlight>Kochi Infopark</Highlight>, I developed a <Highlight>Training Management System</Highlight> and contributed to a live accounting project called <Highlight>Vyapar</Highlight>.
+            During my internship at <Highlight>Wahni IT Solutions, Kochi</Highlight>, I worked on 
+            <Highlight>Frappe/ERPNext development</Highlight>, designing 10+ dynamic print formats, 
+            building and testing 5+ REST APIs, and contributing across the software development lifecycle.
           </Description>
+
           <Description>
-            I enjoy solving real-world problems through <Highlight>intelligent systems</Highlight>, blending <Highlight>backend development</Highlight> with <Highlight>data science</Highlight> to create meaningful impact.
+            I also gained hands-on development experience at <Highlight>Altos Technologies</Highlight>, 
+            where I built a <Highlight>Django-based Training Management System</Highlight> and contributed 
+            to live accounting software. I was also awarded the <Highlight>NSP PG Scholarship in April 2026</Highlight>.
           </Description>
+
           <SkillsList>
             <SkillItem>
               <i className="fas fa-check-circle"></i>
-              Python & Django Development
+              Python & Backend Development
             </SkillItem>
             <SkillItem>
               <i className="fas fa-check-circle"></i>
-              Data Analysis & Visualization
+              Django & Frappe/ERPNext
             </SkillItem>
             <SkillItem>
               <i className="fas fa-check-circle"></i>
-              Machine Learning Fundamentals
+              REST API Development & Testing
             </SkillItem>
             <SkillItem>
               <i className="fas fa-check-circle"></i>
-              React & Web Technologies
+              SQL & Database Management
             </SkillItem>
             <SkillItem>
               <i className="fas fa-check-circle"></i>
-              SQL & Power BI
+              Machine Learning & Data Science
             </SkillItem>
             <SkillItem>
               <i className="fas fa-check-circle"></i>
-              Git & GitHub
+              Git & Software Development Lifecycle
             </SkillItem>
           </SkillsList>
         </Content>

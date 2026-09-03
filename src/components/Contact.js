@@ -170,7 +170,7 @@ const Contact = () => {
               <i className="fab fa-github"></i>
             </SocialLink>
             <SocialLink 
-              href="mailto:anitta6238@gmail.com"
+              href="mailto:anittakurian89@gmail.com"
               aria-label="Email"
               delay="0.4s"
             >

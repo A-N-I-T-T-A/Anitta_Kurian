@@ -109,7 +109,7 @@ const Footer = () => {
             >
               GitHub
             </FooterLink>
-            <FooterLink href="mailto:anitta6238@gmail.com">
+            <FooterLink href="mailto:anittakurian89@gmail.com">
               Email
             </FooterLink>
           </FooterColumn>
@@ -117,7 +117,7 @@ const Footer = () => {
           <FooterColumn>
             <FooterTitle>Resources</FooterTitle>
             <FooterLink 
-              href="https://drive.google.com/file/d/1K7j_ZUH1EzY2Bs8_mG0hiqTxntlTBhQB/view?usp=drive_link" 
+              href="https://drive.google.com/file/d/1NOTh5RrCXnPjLHBSIz9tdpV8e3rJD1ZJ/view?usp=drive_link" 
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -134,7 +134,7 @@ const Footer = () => {
               <SocialLink href="https://github.com/A-N-I-T-T-A" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-github"></i>
               </SocialLink>
-              <SocialLink href="mailto:anitta6238@gmail.com">
+              <SocialLink href="mailto:anittakurian89@gmail.com">
                 <i className="fas fa-envelope"></i>
               </SocialLink>
             </SocialLinks>

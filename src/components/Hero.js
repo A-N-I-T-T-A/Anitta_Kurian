@@ -302,16 +302,16 @@ const Hero = () => {
     <HeroSection id="hero">
       <HeroContent>
         <Title>Anitta Kurian</Title>
-        <Subtitle>Aspiring Data Scientist | AI Enthusiast | Python Developer</Subtitle>
+        <Subtitle>Python Developer | Data Science & AI Enthusiast</Subtitle>
         <Description>
-          Passionate about transforming data into actionable insights and building 
-          intelligent solutions that make a difference. Exploring the frontiers of 
-          artificial intelligence and machine learning.
+          Python-focused developer exploring Data Science, Machine Learning, and AI.
+          I build practical applications that combine data, predictive models, and
+          software development to solve real-world problems.
         </Description>
         
         <ButtonGroup>
           <Button 
-            href="https://drive.google.com/file/d/1K7j_ZUH1EzY2Bs8_mG0hiqTxntlTBhQB/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1NOTh5RrCXnPjLHBSIz9tdpV8e3rJD1ZJ/view?usp=drive_link"
             className="primary"
             target="_blank"
             rel="noopener noreferrer"
@@ -350,7 +350,7 @@ const Hero = () => {
               <i className="fab fa-github"></i>
             </SocialIcon>
             <SocialIcon 
-              href="mailto:anitta6238@gmail.com"
+              href="mailto:anittakurian89@gmail.com"
               aria-label="Email"
             >
               <i className="fas fa-envelope"></i>
