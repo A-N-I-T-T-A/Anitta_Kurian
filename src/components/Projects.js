@@ -358,7 +358,7 @@ const Projects = () => {
     {
       title: 'Mental Health AI Copilot',
       description: 'An AI-powered application designed to support users with mental health-related conversations and provide intelligent, context-aware assistance through natural language interaction.',
-      image: './projects/mental-health-ai-copilot.png',
+      image: './projects/mental-health-ai-copilot.jpg',
       techStack: ['Python', 'NLP', 'AI', 'Machine Learning', 'Explainable AI', 'Streamlit', 'distilbert model'],
       github: 'https://github.com/A-N-I-T-T-A/MentalHealthCopilot.git',
       demo: 'https://mentalhealthcopilot-8ytkgpdo3kfg8p4sqnxysi.streamlit.app/',
@@ -517,14 +517,16 @@ const Projects = () => {
                       <i className="fab fa-github"></i>
                       GitHub
                     </ProjectLink>
-                    <ProjectLink 
-                      href={project.demo} 
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i className="fas fa-external-link-alt"></i>
-                      Live Demo
-                    </ProjectLink>
+                    {project.demo && (
+                      <ProjectLink 
+                        href={project.demo} 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fas fa-external-link-alt"></i>
+                        Live Demo
+                      </ProjectLink>
+                    )}
                   </ProjectLinks>
                 </ProjectContent>
               </ProjectCard>
