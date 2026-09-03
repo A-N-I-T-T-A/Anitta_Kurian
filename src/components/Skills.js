@@ -208,7 +208,14 @@ const Skills = () => {
     {
       title: 'Frameworks & UI',
       icon: 'fas fa-layer-group',
-      skills: ['Django', 'Flask', 'React', 'Tkinter', 'Bootstrap'],
+      skills: [
+        'Django',
+        'Flask',
+        'React',
+        'Tkinter',
+        'Bootstrap',
+        'Frappe Framework'
+      ],
       delay: 0.3
     },
     {
@@ -222,18 +229,18 @@ const Skills = () => {
         'Render',
         'MySQL',
         'PythonAnywhere',
-        'Google Colab'
+        'Google Colab',
+        'ERPNext'
       ],
       delay: 0.4
     },
     {
-      title: 'Core Data Skills',
+      title: 'Core Data & AI Skills',
       icon: 'fas fa-chart-line',
       skills: [
         'Data Preprocessing',
         'Exploratory Data Analysis (EDA)',
         'Data Visualization',
-        'Natural Language Processing (NLP)',
         'Model Training & Evaluation',
         'Feature Engineering',
         'Regression & Classification',
@@ -242,7 +249,8 @@ const Skills = () => {
         'Predictive Modeling',
         'Statistical Analysis',
         'Data Cleaning',
-        'Model Validation'
+        'Model Validation',
+        'Natural Language Processing (NLP)'
       ],
       delay: 0.5
     }

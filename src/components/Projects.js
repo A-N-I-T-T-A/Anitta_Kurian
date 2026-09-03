@@ -348,13 +348,30 @@ const Projects = () => {
 
   const projects = [
     {
+      title: 'Retail Sales Analytics',
+      description: 'Developed a data analytics solution to analyze retail sales data, identify sales trends and patterns, and generate actionable insights through data visualization and performance analysis.',
+      image: './projects/retail-sales-analytics.png',
+      techStack: ['Python', 'Pandas', 'NumPy', 'Power BI', 'Matplotlib'],
+      github: 'https://github.com/A-N-I-T-T-A/Retail-Sales-Analytics.git',
+      delay: 0.2
+    },
+    {
+      title: 'Mental Health AI Copilot',
+      description: 'An AI-powered application designed to support users with mental health-related conversations and provide intelligent, context-aware assistance through natural language interaction.',
+      image: './projects/mental-health-ai-copilot.png',
+      techStack: ['Python', 'NLP', 'AI', 'Machine Learning', 'Explainable AI', 'Streamlit', 'distilbert model'],
+      github: 'https://github.com/A-N-I-T-T-A/MentalHealthCopilot.git',
+      demo: 'https://mentalhealthcopilot-8ytkgpdo3kfg8p4sqnxysi.streamlit.app/',
+      delay: 0.3
+    },
+    {
       title: 'MentorQuest – Skill-Based Mentorship Platform',
       description: 'Designed and developed a full-stack platform that connects mentees to mentors through skill-matching, scheduling, payments, and dashboards. Solves the real-world problem of fragmented mentoring systems by offering structured, personalized experiences.',
       image: './projects/mentorquest.png',
       techStack: ['React', 'Django REST Framework', 'PostgreSQL', 'JWT', 'Razorpay', 'Google OAuth'],
       github: ['https://github.com/A-N-I-T-T-A/MentorQuest_Frontend','https://github.com/A-N-I-T-T-A/MentorQuest_Backend'],
       demo: 'https://a-n-i-t-t-a.github.io/MentorQuest_Frontend/',
-      delay: 0.2
+      delay: 0.4
     },    
     {
       title: 'Loan Default Prediction Web App',
@@ -363,7 +380,7 @@ const Projects = () => {
       techStack: ['Python', 'Flask', 'Scikit-learn', 'Pandas', 'HTML', 'CSS', 'Bootstrap', 'Joblib'],
       github: 'https://github.com/A-N-I-T-T-A/Loan_Risk_Assessment.git',
       demo: 'https://loan-risk-assessment-ymdw.onrender.com/',
-      delay: 0.3
+      delay: 0.5
     }, 
     {
       title: 'Credit Card Fraud Detection – KNN',
@@ -372,7 +389,7 @@ const Projects = () => {
       techStack: ['Python', 'Flask', 'Scikit-learn', 'Pandas', 'Bootstrap', 'Joblib'],
       github: 'https://github.com/A-N-I-T-T-A/Credit_card_fraud_detection.git',
       demo: 'https://credit-card-fraud-detection-5s04.onrender.com/',
-      delay: 0.4
+      delay: 0.6
     },    
     {
       title: 'Battery Life Estimator – Polynomial Regression',
@@ -381,7 +398,7 @@ const Projects = () => {
       techStack: ['Python', 'Flask', 'Scikit-learn', 'Joblib', 'HTML', 'CSS', 'Bootstrap', 'JavaScript'],
       github: 'https://github.com/A-N-I-T-T-A/Battery_Life_Estimator.git',
       demo: 'https://battery-life-estimator.onrender.com/',
-      delay: 0.5
+      delay: 0.7
     },
     {
       title: 'Freelance Earnings Prediction',
@@ -390,7 +407,7 @@ const Projects = () => {
       techStack: ['Python', 'Flask', 'Scikit-learn', 'Pandas', 'NumPy', 'Bootstrap'],
       github: 'https://github.com/A-N-I-T-T-A/Freelance_Earnings.git',
       demo: 'https://anitta12.pythonanywhere.com/',
-      delay: 0.6
+      delay: 0.8
     },
     {
       title: 'Electricity Bill Predictor',
@@ -399,7 +416,7 @@ const Projects = () => {
       techStack: ['Python', 'Flask', 'Scikit-learn', 'Pandas', 'NumPy'],
       github: 'https://github.com/anitta-kurian/electricity-bill-predictor',
       demo: 'https://electricitybillpredictor.onrender.com',
-      delay: 0.7
+      delay: 0.9
     },
     {
       title: 'DIY-Blog Platform',
@@ -408,7 +425,7 @@ const Projects = () => {
       techStack: ['Django', 'HTML', 'Bootstrap', 'SQLite', 'Render'],
       github: 'https://github.com/A-N-I-T-T-A/DIY_Blog.git',
       demo: 'https://diy-blog.onrender.com/blog/',
-      delay: 0.8
+      delay: 0.10
     },
     {
       title: 'Training Department Management System',
@@ -417,7 +434,7 @@ const Projects = () => {
       techStack: ['Django', 'HTML5', 'CSS', 'JavaScript', 'Bootstrap', 'SQL'],
       github: 'https://github.com/A-N-I-T-T-A/Training-Management.git',
       demo: '',
-      delay: 0.9
+      delay: 0.11
     }            
   ];
 
