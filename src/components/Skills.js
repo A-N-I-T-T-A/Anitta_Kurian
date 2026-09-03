@@ -193,25 +193,57 @@ const Skills = () => {
     {
       title: 'Libraries & ML Frameworks',
       icon: 'fas fa-brain',
-      skills: ['Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'Scikit-learn', 'TensorFlow', 'PyTorch'],
+      skills: [
+        'Pandas',
+        'NumPy',
+        'Matplotlib',
+        'Seaborn',
+        'Scikit-learn',
+        'TensorFlow',
+        'PyTorch',
+        'Joblib'
+      ],
       delay: 0.2
     },
     {
       title: 'Frameworks & UI',
       icon: 'fas fa-layer-group',
-      skills: ['Django', 'Flask', 'React', 'Tkinter'],
+      skills: ['Django', 'Flask', 'React', 'Tkinter', 'Bootstrap'],
       delay: 0.3
     },
     {
       title: 'Tools & Platforms',
       icon: 'fas fa-tools',
-      skills: ['Power BI', 'Jupyter Notebook', 'Git & GitHub', 'VS Code', 'Render', 'MySQL', 'PythonAnywhere'],
+      skills: [
+        'Power BI',
+        'Jupyter Notebook',
+        'Git & GitHub',
+        'VS Code',
+        'Render',
+        'MySQL',
+        'PythonAnywhere',
+        'Google Colab'
+      ],
       delay: 0.4
     },
     {
       title: 'Core Data Skills',
       icon: 'fas fa-chart-line',
-      skills: ['Data Preprocessing', 'Model Training & Evaluation', 'Feature Engineering', 'Regression & Classification', 'Cross-validation', 'ML Model Deployment'],
+      skills: [
+        'Data Preprocessing',
+        'Exploratory Data Analysis (EDA)',
+        'Data Visualization',
+        'Natural Language Processing (NLP)',
+        'Model Training & Evaluation',
+        'Feature Engineering',
+        'Regression & Classification',
+        'Cross-validation',
+        'ML Model Deployment',
+        'Predictive Modeling',
+        'Statistical Analysis',
+        'Data Cleaning',
+        'Model Validation'
+      ],
       delay: 0.5
     }
   ];
